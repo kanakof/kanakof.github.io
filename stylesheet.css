@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/* <meta name="description" content="${description}" />--> */
+/* <style media="screen"> */
+body{
+  text-align: center;
+  font-family: "Noto Sans JP";
+}
+
+header{
+  background-color: white;
+  color: #6495ed;
+  height: 90px;
+  position: fixed;
+}
+
+.header-list li{
+  list-style: none;
+  float: left;
+  padding: 30px 10px ;
+  color: #fff;
+}
+
+.header-logo img{
+  float:left;
+  width: 200px;
+  length: 200px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+
+.top-wrapper {
+  background-image: url("images/fronthaikei.jpg");
+  background-size: cover;
+  /* opacity: 0.5; */
+}
+
+
+.flex1{
+  flex-grow: 1; 
+}
+
+.box img{
+  margin-right: 600px;
+}
+
+.flex2{
+  flex-grow: 1; 
+}
+
+
+.fuki {
+  position: absolute;
+  top: 38%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  background-color:white;
+
+}
+
+.portrait img{
+  width: 400px;
+  length: 400px;
+  margin-left: 800px;
+}
+
+.fuki img{
+  width: 200px;
+  length: 100px;
+  margin-right: 800px;
+}
+
+
+.content{
+  margin: 50px;
+  /* color: #22e068; */
+}
+
+.contentart img{
+  width: 400px;
+  length: 400px;
+}
+
+.content span{
+  border-bottom: 3px dashed white;
+}
+
+.question, .question_other{
+  font-size:large;
+  font-weight:bold;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+
+
+input[type=radio] {
+  transform: scale(2);
+  margin: 0 6px 0 0;
+  background-color: greenyellow;
+}
+
+button[type=submit],[type=button] {
+  border: 1px solid #dee7ec;
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  margin-top: 50px;
+  /* margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 20px; */
+  background-color:#dee7ec;
+  color:black;
+}
+
+footer img{
+  width: 50px;
+  length: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color:white;
+  height: 120px;
+  margin: 20px;
+}
+
+h1 {
+  font-size:40px;
+  color: black;
+  background-color:whitesmoke;
+}
+
+h2 {
+  /* font-size:50px; */
+  background-color:white;
+}
+
+p {
+  /* font-weight:bold */
+}
+
