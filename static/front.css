@@ -24,10 +24,12 @@ header{
   padding-top: 20px;
 }
 
+/* 背景画像調整 */
 .top-wrapper {
-  background-image: url("https://github.com/kanakof/kanakof.github.io/blob/main/fronthaikei.jpg?raw=true");
+  background-image: url("images/fronthaikei.jpg");
   background-size: cover;
   width: 100%;
+  /* opacity: 0.5; */
 }
 
 .fuki {
@@ -84,7 +86,7 @@ p {
 
 @media ( max-width:479px ){
 .top-wrapper {
-  background-image: url("https://github.com/kanakof/kanakof.github.io/blob/main/fronthaikei.jpg?raw=true");
+  background-image: url("images/fronthaikei.jpg");
   background-size: cover;
   /* opacity: 0.5; */
 }
